@@ -3,7 +3,7 @@
 
 ## Description
 
-- What was your motivation? The purpose of this project was to improve on the existing code without affecting the overall aesthetic and practicality of the existing app. This was accomplished by using the Semantic HTML style of coding. The purpose of using Semantic HTML style of coding is to make the app more accessible to all audiences, as it makes it easier for users and developers to distinguish components of the code, allowing for further improvements in the future. The use of "alt" text describes images within the app, for visually impaired users to obtain a description of the images. The new coding style also allows for more search engine results, which is important for the marketing and the potential growth of the organization.
+- What was your motivation? The purpose of this project was to create a quiz that was engagning and provided education to users learning JavaScript fundamentals. The use of this quiz as study material will test the user's knowledge of Javascript terms, while allowing the user to grasp the concepts and hardwire the material in their memory. 
 
 ## Table of Contents
 
@@ -14,16 +14,15 @@
 
 ## Usage
 
-The use of "alt" text were added next to the images of the code for accessibility for the visually impaired. An example of what the "alt" texts may look like in the code is as follows: 
-<img src="./assets/images/cost-management.png" alt="Three circles with a dollar symbol inside; a gear in the background"/>
-This makes the app more accessible, and allows for more user friendly options in the event that the app image cannot be seen by the user.
+This quiz is a simple multiple choice quiz that may be familiar to most users, as it emulates many surveys or school assignments that a user may have taken. The interface is simple enough that it does not take much knowledge of computers to follow the instructions to complete the quiz. This quiz uses a timer that counts down the time that the user has to answer the question. For each wrong answer, the time left will decrease suddenly. At the end of a quiz, the user will receive a score, based on correct answers and time needed to finish the quiz. The user's high score is then recorded, making this quiz also act as a fun and competitive game.
     ```
 
 ## Credits
 
-W3 Schools: Semantic HTML Elements <https://www.w3schools.com/html/html5_semantic_elements.asp>
-W3 Schools: CSS Layout - The position Property <https://www.w3schools.com/css/css_positioning.asp>
-Minim: When to Use Semantic HTML Elements Instead of Divs #tryminim <https://youtu.be/ZThq93Yuwd0>
+YouTube - Great Stack: https://www.youtube.com/watch?v=PBcqGxrr9g8
+Simple Step Code: https://simplestepscode.com/javascript-quiz-tutorial/#step1
+Site Point.com: https://www.sitepoint.com/simple-javascript-quiz/
+Stackoverfow.com/Questions
 
 ## License
 MIT License
