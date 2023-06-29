@@ -1,5 +1,5 @@
 # create-quiz-challenge-4
-# <"A fun and engaging quiz to help students with JAvaScript fundamentals">
+# <"A fun and engaging quiz to help students with JavaScript fundamentals">
 
 ## Description
 
