@@ -23,6 +23,7 @@ YouTube - Great Stack: https://www.youtube.com/watch?v=PBcqGxrr9g8
 Simple Step Code: https://simplestepscode.com/javascript-quiz-tutorial/#step1
 Site Point.com: https://www.sitepoint.com/simple-javascript-quiz/
 Stackoverfow.com/Questions
+Codeacademy.com: https://www.codecademy.com/article/glossary-javascript
 
 ## License
 MIT License
