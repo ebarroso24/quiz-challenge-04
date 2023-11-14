@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -27,6 +27,7 @@
                 </div>
                 <div class="card timer">
                     <div class="timer-text">
+                        
                         <div class="large-font timer-count">20</div>
                         <h3>seconds remaining</h3>
                     </div>
@@ -50,6 +51,64 @@
 
     </section>
 
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Coding Bootcamp Quiz Project</title>
+</head>
+<body>
+    <header>
+        <div class="large-font">Coding Quiz</div>
+        <!-- <button class="start-button" onclick="startQuiz()">Start Quiz</button> -->
+    </header>
+    <section class="app">
+        <section class="start-page">
+            <h1>Welcome to the Coding Quiz!</h1>
+            <p>Test your knowledge of JavaScript fundamentals and compete with your peers.</p>
+            <button class="start-button" onclick="startQuiz()">Start Quiz</button>
+        </section>
+
+        <section class="quiz" style="display: none;">
+            <h1>Coding Quiz</h1>
+            <section>
+                <div class="card results">
+                    <div class="win-loss-container">
+                        <div>
+                            <h2>Wins: <span class="win">0 </span></h2>
+                            <h2>Losses: <span class="lose">0</span></h2>
+                        </div>
+                        <button class="reset-button" onclick="resetGame()">Reset Score</button>
+                    </div>
+                    <div class="card timer">
+                        <div class="timer-text">
+                            <div class="large-font timer-count">20</div>
+                            <h3>seconds remaining</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <nav class="quiz">
+                <h2 id="question">Question 1 goes here</h2>
+                <div id="answer-buttons">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
+                <button id="next-btn">Next</button>
+            </nav>
+        </section>
+    </section>
 
     <script src="./assets/js/script.js"></script>
 </body>
